@@ -5,8 +5,8 @@ An end-to-end machine learning project that predicts whether a hotel booking wil
 
 ## 📦 What’s in this repo
 - original dataset - booking.csv
-- notebooks — Jupyter notebooks (main analysis + PyCaret AutoML)
-- reports — presentation slide deck
+- notebooks - Jupyter notebooks (main analysis + PyCaret AutoML)
+- reports - presentation slide deck
 
 ## 🎯 Objectives
 - Understand booking behavior and drivers of cancellation
@@ -17,9 +17,9 @@ An end-to-end machine learning project that predicts whether a hotel booking wil
 ~36k bookings; features include adults/children counts, nights, lead time, room type, market segment type, average price, special requests, etc.; target: booking status (Canceled / Not Canceled). Key cleaning included removing invalid stays (0 week + 0 weekend nights), handling outliers, and dropping redundant columns.
 
 ## 🔍 Highlights from EDA
-- **Lead time** ↑ → **cancellation likelihood** ↑; sharp rise beyond ~150 days
+- **Lead time increase** leads to **increase in cancellation likelihood**; sharp rise beyond ~150 days
 - **Repeat customers**: extremely reliable; **very low** cancel rate
-- **Special requests**: more requests → **lower** cancellation risk
+- **Special requests**: more requests lead to **lower** cancellation risk
 - **Market segment**: **online** drives most cancellations; **corporate/complementary** are highly reliable
 - **Average price**: cancellation rate increases across price bands (instability at higher bands)
 
