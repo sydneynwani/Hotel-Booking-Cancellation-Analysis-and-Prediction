@@ -14,7 +14,10 @@ An end-to-end machine learning project that predicts whether a hotel booking wil
 - Deliver actionable recommendations for policy and ops
 
 ## 📊 Dataset (snapshot)
-~36k bookings; features include adults/children counts, nights, lead time, room type, market segment type, average price, special requests, etc.; target: booking status (Canceled / Not Canceled). Key cleaning included removing invalid stays (0 week + 0 weekend nights), handling outliers, and dropping redundant columns.
+- ~36k bookings;
+- features include adults/children counts, nights, lead time, room type, market segment type, average price, special requests, etc.;
+- target: booking status (Canceled / Not Canceled).
+- Key cleaning included removing invalid stays (0 week + 0 weekend nights), handling outliers, and dropping redundant columns.
 
 ## 🔍 Highlights from EDA
 - **Lead time increase** leads to **increase in cancellation likelihood**; sharp rise beyond ~150 days
@@ -24,9 +27,19 @@ An end-to-end machine learning project that predicts whether a hotel booking wil
 - **Average price**: cancellation rate increases across price bands (instability at higher bands)
 
 ## 🤖 Modeling
-- Candidates: Logistic Regression, Random Forest, Gradient Boosting, AdaBoost, SVC, KNN, Decision Tree, XGBoost; PyCaret AutoML used for comparison.
+- **Candidates**: Logistic Regression, Random Forest, Gradient Boosting, AdaBoost, SVC, KNN, Decision Tree, XGBoost; PyCaret AutoML used for comparison.
 - **Best model**: Random Forest Classifier
 - **ROC–AUC ≈ 0.97** (excellent separation)
 
-## Recommendations
-- See slide deck
+## 🧠 Business Recommendations 
+- Tiered cancellation policies for long lead times (e.g., deposits for >150 days)
+- Strengthen loyalty & retention (repeat customers rarely cancel)
+- Encourage special requests in the booking flow
+- Monitor online segment closely; targeted reminders/offers
+- Careful overbooking for very long lead times
+- Integrate model into real-time booking systems
+
+## 🛠️ Tech Stack
+- **Language:** Python
+- **Libraries:** pandas · numpy · scikit-learn · matplotlib · seaborn · PyCaret · joblib
+- **Tools:** Jupyter Notebook, Powerpoint, Github
