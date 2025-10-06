@@ -1,7 +1,7 @@
 # 🏨 Hotel Booking Cancellation Prediction
-<img width="1080" height="1080" alt="Blue Modern Hotel Promotion Instagram Post (2)" src="https://github.com/user-attachments/assets/6792a9e1-5dfd-4cc9-903d-780174b731b6" />
-
 An end-to-end machine learning project that predicts whether a hotel booking will be canceled, and translates the results into concrete business actions. Includes data cleaning, EDA, feature engineering, modeling (Random Forest best), evaluation (AUC ≈ 0.97), and a presentation summarizing insights and recommendations.
+
+<img width="1080" height="1080" alt="Blue Modern Hotel Promotion Instagram Post (2)" src="https://github.com/user-attachments/assets/6792a9e1-5dfd-4cc9-903d-780174b731b6" />
 
 ## 📦 What’s in this repo
 - original dataset - booking.csv
